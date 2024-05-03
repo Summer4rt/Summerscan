@@ -88,8 +88,8 @@ const master = document.getElementById("master");
 const basic = document.getElementById("basic");
 
 checkbox.addEventListener("click", () => {
-  basic.textContent = basic.textContent === "$225" ? "$25" : "$225";
+  basic.textContent = basic.textContent === "€225" ? "€25" : "€225";
   professional.textContent =
-    professional.textContent === "$450" ? "50" : "$450";
+    professional.textContent === "€450" ? "€50" : "€450";
   master.textContent = master.textContent === "Auf Anfrage" ? "Auf Anfrage" : "Auf Anfrage";
 });

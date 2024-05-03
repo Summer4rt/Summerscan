@@ -49,41 +49,44 @@ marco@summerscan.at
 
 		<!-- Anfrage -->
 
-            <section id="four" class="wrapper style1 special-alt">
-                <div class="inner split">
-                    <section>
-                        <header class="major">
-                            <h2>Anfrage</h2>
-                        </header>
-                        <p>Ob Sie virtuelle Touren für Hotels, Sehenswürdigkeiten oder Immobilien wünschen oder hochpräzise 3D-Scans für touristische Attraktionen benötigen, wir sind darauf spezialisiert, Ihre Anforderungen zu erfüllen. Unser engagiertes Team steht Ihnen zur Verfügung, um Ihre Fragen zu beantworten, weitere Informationen zu unseren Scandienstleistungen bereitzustellen oder individuelle Projekte zu besprechen.</p>
-                    </section>
-                    <form method="post" action="process.php">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" />
-                        <label for="name">Unterkunft</label>
-                        <input type="text" id="name" name="name" />
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" />
-                        <label for="name">Anmerkung</label>
-                        <input type="text" id="name" name="name" />
-                        <ul class="actions">
-                            <li><a type="submit" value="Anfrage senden" class="button">Senden</a></li>
-                        </ul>
-                    </form>
-                </div>
-            </section>
+		<section id="four" class="wrapper style1 special-alt">
+			<div class="inner split">
+				<section>
+					<header class="major">
+						<h2>Anfrage</h2>
+					</header>
+					<p>Ob Sie virtuelle Touren für Hotels, Sehenswürdigkeiten oder Immobilien wünschen oder hochpräzise 3D-Scans für touristische Attraktionen benötigen, wir sind darauf spezialisiert, Ihre Anforderungen zu erfüllen. Unser engagiertes Team steht Ihnen zur Verfügung, um Ihre Fragen zu beantworten, weitere Informationen zu unseren Scandienstleistungen bereitzustellen oder individuelle Projekte zu besprechen.</p>
+				</section>
+				<form method="post" action="process.php">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" required>
+					
+					<label for="email">email</label>
+					<input type="email" name="email" id="email" required>
+					
+					<label for="subject">Subject</label>
+					<input type="text" name="subject" id="subject" required>
+					
+					<label for="message">Message</label>
+					<textarea name="message" id="message" required></textarea>
+					
+					<br>
+					
+					<button>Senden</button>
+				</form>
+		
 
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="alt-icons">
-					<li><a href="www.linkedin.com/in/marco-summer" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.linkedin.com/in/marco-summer/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 					<li><a href="https://github.com/Summer4rt" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 					<li><a href="tel:+43 677 62030946" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
 					<li><a href="mailto:marco@summerscan.at" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="menu">
 					<li><a href="datenschutz.html">Datenschutz</a></li>
-					<li><a href="Impressum.html">Impressum</a></li>
+					<li><a href="impressum.html">Impressum</a></li>
 					<li><a href="anfrage.html">Contact Us</a></li>
 				</ul>
 				<p class="copyright">
